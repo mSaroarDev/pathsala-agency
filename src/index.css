@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  src: url("/fonts/AdorNoirritRegular.ttf");
+  font-family: AdorNoirritRegular;
+}
+
+@font-face {
+  src: url("/fonts/AdorNoirritBold.ttf");
+  font-family: AdorNoirritBold;
+}
+
+@font-face {
+  src: url("/fonts/AdorNoirritSemiBold.ttf");
+  font-family: AdorNoirritSemiBold;
+}
+
+.font-ador-noirrit-regular {
+  font-family: AdorNoirritRegular;
+}
+
+.font-ador-noirrit-semibold {
+  font-family: AdorNoirritSemiBold;
+}
+
+.font-ador-noirrit-bold {
+  font-family: AdorNoirritBold;
+}
+
+/* global css */
+main {
+  @apply w-full max-w-6xl mx-auto;
+}
+
+.button-main {
+  background: linear-gradient(to bottom, #ff5800 0%, #ff8400 100%);
+  color: #fff;
+  @apply px-7 py-3 rounded-full inline-block mt-5;
+}
+
+h4 .CheckCircle {
+  color: green;
+}
+
+input,
+textarea {
+  @apply border-[1px] border-[#ff5800] px-5 py-2 rounded-md w-full;
+}
+
+label {
+  @apply font-semibold;
+}
