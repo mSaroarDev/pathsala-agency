@@ -37,7 +37,7 @@ main {
 .button-main {
   background: linear-gradient(to bottom, #ff5800 0%, #ff8400 100%);
   color: #fff;
-  @apply px-7 py-3 rounded-full inline-block mt-5;
+  @apply px-7 py-3 rounded-full inline-block;
 }
 
 h4 .CheckCircle {

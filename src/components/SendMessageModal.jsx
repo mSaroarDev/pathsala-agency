@@ -3,7 +3,7 @@ const SendMessageModal = () => {
     <>
       {/* You can open the modal using document.getElementById('ID').showModal() method */}
       <button
-        className="button-main font-ador-noirrit-semibold"
+        className="button-main font-ador-noirrit-semibold mt-5"
         onClick={() => document.getElementById("my_modal_3").showModal()}
       >
         এখনই মেসেজ করুন

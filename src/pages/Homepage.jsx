@@ -23,7 +23,7 @@ const Homepage = () => {
                 সবকিছু, গ্যালারী, শিক্ষক প্যানেল, শিক্ষার্থী প্যানেল সবকিছুই।
                 সাথে নতুন ফিচারস সমূহ অ্যাড হয়ে যাবে অটোমেটিক্যালী।
               </p>
-              <a href="#package-section" className="button-main">
+              <a href="#package-section" className="button-main mt-5">
                 মাত্র ২৯৯/- টাকা থেকে শুরু
               </a>
             </div>
@@ -82,7 +82,7 @@ const Homepage = () => {
 
               <a
                 href="#package-section"
-                className="button-main font-ador-noirrit-semibold"
+                className="button-main font-ador-noirrit-semibold mt-5"
               >
                 অর্ডার করুন
               </a>
