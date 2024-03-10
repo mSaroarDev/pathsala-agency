@@ -82,7 +82,7 @@ const Nav = () => {
                 </li>
               </ul>
             </div>
-            <div className="navbar-end">
+            <div className="navbar-end hidden md:block">
               <a href="https://pathsala-edu.com/client" className="button-main">
                 ক্লায়েন্ট লগইন
               </a>
