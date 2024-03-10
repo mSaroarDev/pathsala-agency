@@ -4,7 +4,7 @@ const PricingCard = ({ data }) => {
   return (
     <>
       <div className="col-span-12 lg:col-span-4 bg-[#FFF8FE] p-7 rounded-md">
-        <div className="h-[450px] w-full flex flex-col items-start justify-between">
+        <div className="h-[450px] w-[300px] lg:w-full flex flex-col items-start justify-between">
           <div className="w-full flex flex-col items-start justify-start gap-3">
             <h3 className="px-4 py-1 border-[2px] border-[#292929] rounded-full uppercase">
               {data?.packageName}

@@ -213,7 +213,7 @@ const Homepage = () => {
             </p>
           </div>
 
-          <div className="__cards grid grid-cols-12 gap-10 mt-10">
+          <div className="__cards grid grid-cols-12 w-full gap-10 mt-10">
             {pricingPlans &&
               pricingPlans.map((plan, i) => (
                 <PricingCard key={i} data={plan} />
